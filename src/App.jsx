@@ -10,7 +10,7 @@ function App() {
   }
 
 
-  const MAX_ITEMS = 5
+  const MAX_ITEMS = 5.0
   const MIN_ITEMS = 1
   const [data] = useState(db);
   const [cart,setCart] = useState(initialCart);
